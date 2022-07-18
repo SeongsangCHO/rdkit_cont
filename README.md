@@ -24,7 +24,8 @@ make -j2 RDKit_minimal && \
 test in demo.html
 change container Id in sh file.
 ```shell
-./getWasmFile.sh
+docker ps
+./getWasmFile.sh ${CONTAINER_ID}
 cd demo
 ```
 

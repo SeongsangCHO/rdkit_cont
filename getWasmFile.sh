@@ -1,1 +1,1 @@
-docker cp 3ba6ce182aea:/src/rdkit/Code/MinimalLib/demo .
+docker cp $1:/src/rdkit/Code/MinimalLib/demo .
